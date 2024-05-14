@@ -2,13 +2,13 @@
   padding: 0 1.25em;
 }
 
-h1, footer {
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+h1,
+footer {
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
-.header__theme-menu{
-  align-self:start;
+.header__theme-menu {
+  align-self: start;
   justify-self: center;
-
 }
 .header__theme-menu-list {
   margin-block-start: 18px;
@@ -17,87 +17,82 @@ h1, footer {
   justify-content: start;
   gap: 8px;
 }
-.header__theme-menu-list li{
-  inline-size: 30%;}
+.header__theme-menu-list li {
+  inline-size: 30%;
+}
 
-header h1{
+header h1 {
   position: relative;
   margin-inline-start: -20px;
-  margin-block-start: 30px;;
+  margin-block-start: 30px;
 }
-header p{
-  margin-block-start: 25px;;
+header p {
+  margin-block-start: 25px;
   position: relative;
-  inline-size:50%;
+  inline-size: 50%;
   align-self: start;
   justify-self: end;
+}
 
-} 
-
-
-section.why{
+section.why {
   display: grid;
   grid-template-columns: 1fr 66%;
   gap: 1.25rem;
 }
-section.why article{
+section.why article {
   padding-block-start: 2px;
 }
-section.why h2{
+section.why h2 {
   padding-block-start: 20px;
 }
 
-section.what h2{
+section.what h2 {
   padding-block-start: 30px;
   inline-size: 34%;
 }
 
-section.what ul{
+section.what ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: start;
   gap: 20px;
-
 }
 
 li {
   display: block;
-
 }
 
-
-section.how{
-  padding-block-start: 42px;;
+section.how {
+  padding-block-start: 42px;
   display: grid;
   grid-template-columns: 1fr 66%;
   gap: 1.25rem;
 }
-section.how h2{
-padding-block-start: 0.3em;
+section.how h2 {
+  padding-block-start: 0.3em;
 }
 
-section.how h3{
+section.how h3 {
   margin-block-start: 6px;
   margin-block-end: 18px;
-  }
+}
 
-
-.rec{
-  inset-block-start:21px;
+.rec {
+  inset-block-start: 21px;
   inset-inline-end: 46px;
 }
-.decorated-zone::after{
-  inset-inline-start:0rem;
-  inset-block-end:1.25rem;
+.decorated-zone::after {
+  inset-inline-start: 0rem;
+  inset-block-end: 1.25rem;
 }
-.decorated-zone::before{
-  inset-block-start:1.25rem;
-  inset-inline-end:0rem;
+.decorated-zone::before {
+  inset-block-start: 1.25rem;
+  inset-inline-end: 0rem;
 }
-section.gallery{
+section.gallery {
   padding-block-start: 50px;
 }
-section.gallery article{
+section.gallery article {
   padding-block-start: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -105,25 +100,24 @@ section.gallery article{
     "aa aa bb"
     "cc dd bb"
     "cc ee ee";
-  gap:20px;
+  gap: 20px;
 }
 
-
-section.gallery article img:nth-of-type(1){
+section.gallery article img:nth-of-type(1) {
   grid-area: aa;
 }
-section.gallery article img:nth-of-type(2){
+section.gallery article img:nth-of-type(2) {
   grid-area: bb;
 }
-section.gallery article img:nth-of-type(3){
+section.gallery article img:nth-of-type(3) {
   grid-area: cc;
 }
-section.gallery article img:nth-of-type(4){
+section.gallery article img:nth-of-type(4) {
   grid-area: dd;
 }
-section.gallery article img:nth-of-type(5){
+section.gallery article img:nth-of-type(5) {
   grid-area: ee;
 }
-footer{
+footer {
   margin-block-start: 60px;
 }

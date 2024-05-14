@@ -4,20 +4,19 @@
   переключая тему
 */
 
-
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --main-color:#F1B2CE;
-  --secondary-color:#000;
-  --title-color:#DB00FF;
-  --theme-switcher-color:#FF0070;
-  --accent-color:#FF0070;
-  --accent-hover-color:rgba(255, 0, 112, 0.4);
+  --main-color: #f1b2ce;
+  --secondary-color: #000;
+  --title-color: #db00ff;
+  --theme-switcher-color: #ff0070;
+  --accent-color: #ff0070;
+  --accent-hover-color: rgba(255, 0, 112, 0.4);
   background-image: url(../images/cover-image-dark.png);
 }
-.page.theme_dark .rec{
+.page.theme_dark .rec {
   display: block;
 }

@@ -1,89 +1,89 @@
 .page {
   padding: 0 1.25em;
 }
-h1, footer {
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+h1,
+footer {
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
-header p{
+header p {
   position: relative;
-  inset-block-start:28px;
+  inset-block-start: 28px;
   inline-size: 22.75rem;
   align-self: center;
   justify-self: end;
-  margin-block-start: 2em;;
+  margin-block-start: 2em;
 }
 
-main{
+main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 62px;
 }
-section.why h2{
-padding-block-start: 20px;
+section.why h2 {
+  padding-block-start: 20px;
 }
-section.why{
+section.why {
   display: grid;
   grid-template-columns: 1fr 65%;
   gap: 24px;
 }
-section.why article{
+section.why article {
   padding-block-start: 0;
 }
-section.what h2{
+section.what h2 {
   inline-size: max(236px, 30%);
 }
-section.how{
+section.how {
   display: grid;
   grid-template-columns: 1fr 65%;
   gap: 1.25rem;
 }
 
-section.how h3{
+section.how h3 {
   margin-block-start: -2px;
   margin-block-end: 18px;
-  }
+}
 
-section.gallery{
+section.gallery {
   margin-block-start: -5px;
-
-  }
-.rec{
-  inset-block-start:21px;
+}
+.rec {
+  inset-block-start: 21px;
   inset-inline-end: 46px;
 }
-.decorated-zone::after{
-  inset-inline-start:0rem;
-  inset-block-end:1.25rem;
+.decorated-zone::after {
+  inset-inline-start: 0rem;
+  inset-block-end: 1.25rem;
 }
-.decorated-zone::before{
-  inset-block-start:1.25rem;
-  inset-inline-end:0rem;
+.decorated-zone::before {
+  inset-block-start: 1.25rem;
+  inset-inline-end: 0rem;
 }
-header h1{
+header h1 {
   justify-self: start;
   align-self: center;
   position: relative;
-  inset-inline-start:-20px;
-  inset-block-start:1.7rem;
+  inset-inline-start: -20px;
+  inset-block-start: 1.7rem;
 }
-header nav{
+header nav {
   justify-self: end;
   align-self: center;
   position: relative;
-  inset-block-start:-1.40rem;
+  inset-block-start: -1.4rem;
 }
-header p{
+header p {
   justify-self: end;
   align-self: start;
   position: relative;
 }
-section.gallery h3{
+section.gallery h3 {
   margin-block-start: 0.2em;
   margin-block-end: 20px;
 }
 
-li>h3{
+li > h3 {
   display: block;
   inline-size: 100%;
   margin-block-start: 1.125rem;
@@ -93,42 +93,39 @@ li>h3{
   font-size: 1.125rem;
   line-height: 1.463rem;
 }
-li p{
+li p {
   display: block;
-  margin-block-start:4px;;
+  margin-block-start: 4px;
   padding: 0;
   font-size: 1.125rem;
   line-height: 1.463rem;
 }
 
-section.gallery article{
-
+section.gallery article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
     "aa aa bb"
     "cc dd bb"
     "cc ee ee";
-  gap:20px;
+  gap: 20px;
 }
 
-
-section.gallery article img:nth-of-type(1){
+section.gallery article img:nth-of-type(1) {
   grid-area: aa;
 }
-section.gallery article img:nth-of-type(2){
+section.gallery article img:nth-of-type(2) {
   grid-area: bb;
 }
-section.gallery article img:nth-of-type(3){
+section.gallery article img:nth-of-type(3) {
   grid-area: cc;
 }
-section.gallery article img:nth-of-type(4){
+section.gallery article img:nth-of-type(4) {
   grid-area: dd;
 }
-section.gallery article img:nth-of-type(5){
+section.gallery article img:nth-of-type(5) {
   grid-area: ee;
 }
-footer{
+footer {
   margin-block-start: 60px;
-
 }
