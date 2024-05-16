@@ -2,9 +2,7 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-
-@media (prefers-color-scheme: dark) {
-  .page {
+:root{
     --main-color: #f1b2ce;
     --secondary-color: #000;
     --title-color: #db00ff;
@@ -12,20 +10,8 @@
     --accent-color: #ff0070;
     --accent-hover-color: rgba(255, 0, 112, 0.4);
     background-image: url(../images/cover-image-dark.png);
-  }
-  .rec {
-    display: block;
-  }
+
 }
 
-@media (prefers-color-scheme: light) {
-  .page {
-    --main-color: rgba(53, 52, 48, 1);
-    --secondary-color: rgba(53, 52, 48, 1);
-    --title-color: rgba(255, 194, 230, 1);
-    --theme-switcher-color: rgba(53, 52, 48, 1);
-    --accent-color: rgba(255, 141, 203, 1);
-    --accent-hover-color: rgba(50, 49, 45, 0.4);
-    background-image: url(../images/cover-image-light.png);
-  }
-}
+
+
