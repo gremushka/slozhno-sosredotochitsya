@@ -78,15 +78,15 @@ section.how h3 {
 }
 
 .rec {
-  inset-block-start: 21px;
-  inset-inline-end: 46px;
+  inset-block-start: 20px;
+  inset-inline-end: 27px;
 }
 .decorated-zone::after {
   inset-inline-start: 0rem;
-  inset-block-end: 1.25rem;
+  inset-block-end: 20px;
 }
 .decorated-zone::before {
-  inset-block-start: 1.25rem;
+  inset-block-start: 20px;
   inset-inline-end: 0rem;
 }
 section.gallery {
