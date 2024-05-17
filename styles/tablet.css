@@ -1,60 +1,66 @@
 .page {
   padding: 0 1.25em;
 }
-h1,
-footer {
+
+h1,footer {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
 header p {
   position: relative;
+  justify-self: end;
+  align-self: center;
+  margin-block-start: 2em;
   inset-block-start: 28px;
   inline-size: 22.75rem;
-  align-self: center;
-  justify-self: end;
-  margin-block-start: 2em;
 }
 
 main {
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: 1fr;
   gap: 60px;
+  margin: 0;
+  padding: 0;
 }
+
 article {
   padding-block-start: 20px;
   padding-block-end: 20px;
 }
+
 section ul {
-  padding-block-start: 0;
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   gap: 20px;
+  padding-block-start: 0;
 }
+
 section.why h2 {
   padding-block-start: 20px;
 }
+
 section.why {
-  padding-block-start: 40px;
   display: grid;
   grid-template-columns: 1fr 65%;
   gap: 24px;
+  padding-block-start: 40px;
 }
-
 
 section.what h2 {
   inline-size: max(236px, 30%);
 }
+
 section.how {
   display: grid;
   grid-template-columns: 1fr 65%;
   gap: 20px;
 }
+
 section.how article {
   padding-block-start: 0;
 }
+
 section.how h3 {
   margin-block-end: 10px;
   margin-block-end: 10px;
@@ -63,40 +69,47 @@ section.how h3 {
 section.gallery {
   margin-block-start: -5px;
 }
+
 .rec {
   inset-block-start: 20px;
   inset-inline-end: 28px;
   inset-block-start: 20px;
   inset-inline-end: 28px;
 }
+
 .decorated-zone::after {
   inset-inline-start: 0rem;
   inset-block-end: 20px;
   inset-block-end: 20px;
 }
+
 .decorated-zone::before {
   inset-block-start: 20px;
   inset-block-start: 20px;
   inset-inline-end: 0rem;
 }
+
 header h1 {
+  position: relative;
   justify-self: start;
   align-self: center;
-  position: relative;
   inset-inline-start: -20px;
   inset-block-start: 1.7rem;
 }
+
 header nav {
+  position: relative;
   justify-self: end;
   align-self: center;
-  position: relative;
   inset-block-start: -1.4rem;
 }
+
 header p {
+  position: relative;
   justify-self: end;
   align-self: start;
-  position: relative;
 }
+
 section.gallery h3 {
   margin-block-start: 0.2em;
   margin-block-end: 20px;
@@ -104,21 +117,22 @@ section.gallery h3 {
 
 li > h3 {
   display: block;
-  inline-size: 100%;
-  background-color: var(--accent-color);
   color: var(--secondary-color);
   font-size: 18px;
-  line-height: 23.4px;
   font-size: 18px;
   line-height: 23.4px;
+  line-height: 23.4px;
+  background-color: var(--accent-color);
+  inline-size: 100%;
 }
+
 li p {
   display: block;
   margin-block-start: 4px;
   padding: 0;
   font-size: 18px;
-  line-height: 23.4px;
   font-size: 18px;
+  line-height: 23.4px;
   line-height: 23.4px;
 }
 
@@ -135,18 +149,23 @@ section.gallery article {
 section.gallery article img:nth-of-type(1) {
   grid-area: aa;
 }
+
 section.gallery article img:nth-of-type(2) {
   grid-area: bb;
 }
+
 section.gallery article img:nth-of-type(3) {
   grid-area: cc;
 }
+
 section.gallery article img:nth-of-type(4) {
   grid-area: dd;
 }
+
 section.gallery article img:nth-of-type(5) {
   grid-area: ee;
 }
+
 footer {
   margin-block-start: 52px;
   margin-block-start: 52px;

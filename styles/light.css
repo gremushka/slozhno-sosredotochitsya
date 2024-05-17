@@ -12,6 +12,7 @@
   --main-color: rgba(53, 52, 48, 1);
   --secondary-color: rgba(53, 52, 48, 1);
   --title-color: rgba(255, 194, 230, 1);
+  --title-shadow: rgba(255, 0, 112, 1);
   --theme-switcher-color: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --accent-hover-color: rgba(50, 49, 45, 0.4);
@@ -19,8 +20,8 @@
 
 .page.theme_light {
   background-image: url(../images/cover-image-light.png);
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
 }
 .page.theme_light .rec {
   display: none;
@@ -31,15 +32,17 @@
     --main-color: rgba(53, 52, 48, 1);
     --secondary-color: rgba(53, 52, 48, 1);
     --title-color: rgba(255, 194, 230, 1);
+    --title-shadow: rgba(255, 0, 112, 1);
     --theme-switcher-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --accent-hover-color: rgba(50, 49, 45, 0.4);
-    background-attachment: fixed;
     background-size: cover;
+
+    background-attachment: fixed;
   }
   .page {
     background-image: url(../images/cover-image-light.png);
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: fixed;
   }
 }

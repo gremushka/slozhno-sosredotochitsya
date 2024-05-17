@@ -6,17 +6,20 @@ h1,
 footer {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
+
 .header__theme-menu {
-  align-self: start;
   justify-self: center;
+  align-self: start;
 }
+
 .header__theme-menu-list {
-  margin-block-start: 18px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: start;
   gap: 8px;
+  margin-block-start: 18px;
 }
+
 .header__theme-menu-list li {
   inline-size: 30%;
 }
@@ -26,36 +29,40 @@ header h1 {
   margin-inline-start: -20px;
   margin-block-start: 30px;
 }
+
 header p {
-  margin-block-start: 25px;
   position: relative;
-  inline-size: 50%;
-  align-self: start;
   justify-self: end;
+  align-self: start;
+  margin-block-start: 25px;
+  inline-size: 50%;
 }
+
 main {
-  padding-block-start: 40px;
-  margin: 0;
   display: grid;
   grid-template-columns: 1fr;
   gap: 60px;
+  margin: 0;
+  padding-block-start: 40px;
 }
+
 article {
   padding-block-start: 20px;
   padding-block-end: 20px;
 }
+
 section ul {
-  padding-block-start: 0;
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+  padding-block-start: 0;
 }
+
 section.why {
   display: grid;
   grid-template-columns: 1fr 66%;
   gap: 1.25rem;
 }
-
 
 section.why h2 {
   padding-block-start: 20px;
@@ -86,6 +93,7 @@ section.how {
 section.how article {
   padding-block-start: 0;
 }
+
 section.how h3 {
   margin-block-end: 10px;
   margin-block-end: 10px;
@@ -96,21 +104,23 @@ section.how h3 {
   inset-inline-end: 29px;
   inset-inline-end: 29px;
 }
+
 .decorated-zone::after {
   inset-inline-start: 0rem;
   inset-block-end: 20px;
 }
+
 .decorated-zone::before {
   inset-block-start: 20px;
   inset-inline-end: 0rem;
 }
+
 section.gallery {
   padding-block-start: 0px;
   padding-block-start: 0px;
 }
-section.gallery article {
-  padding: 10px 0 0 0;
 
+section.gallery article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
@@ -118,23 +128,29 @@ section.gallery article {
     "cc dd bb"
     "cc ee ee";
   gap: 20px;
+  padding: 10px 0 0 0;
 }
 
 section.gallery article img:nth-of-type(1) {
   grid-area: aa;
 }
+
 section.gallery article img:nth-of-type(2) {
   grid-area: bb;
 }
+
 section.gallery article img:nth-of-type(3) {
   grid-area: cc;
 }
+
 section.gallery article img:nth-of-type(4) {
   grid-area: dd;
 }
+
 section.gallery article img:nth-of-type(5) {
   grid-area: ee;
 }
+
 footer {
   margin-block-start: 60px;
 }
