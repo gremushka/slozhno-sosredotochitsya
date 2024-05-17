@@ -16,48 +16,60 @@ header p {
 }
 
 main {
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 62px;
+  gap: 60px;
+}
+article {
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+}
+section ul {
+  padding-block-start: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 section.why h2 {
   padding-block-start: 20px;
 }
 section.why {
+  padding-block-start: 40px;
   display: grid;
   grid-template-columns: 1fr 65%;
   gap: 24px;
 }
-section.why article {
-  padding-block-start: 0;
-}
+
 section.what h2 {
   inline-size: max(236px, 30%);
 }
 section.how {
   display: grid;
   grid-template-columns: 1fr 65%;
-  gap: 1.25rem;
+  gap: 20px;
 }
-
+section.how article {
+  padding-block-start: 0;
+}
 section.how h3 {
-  margin-block-start: -2px;
-  margin-block-end: 18px;
+  margin-block-end: 10px;
 }
 
 section.gallery {
   margin-block-start: -5px;
 }
 .rec {
-  inset-block-start: 21px;
-  inset-inline-end: 46px;
+  inset-block-start: 20px;
+  inset-inline-end: 28px;
 }
 .decorated-zone::after {
   inset-inline-start: 0rem;
-  inset-block-end: 1.25rem;
+  inset-block-end: 20px;
 }
 .decorated-zone::before {
-  inset-block-start: 1.25rem;
+  inset-block-start: 20px;
   inset-inline-end: 0rem;
 }
 header h1 {
@@ -86,19 +98,17 @@ section.gallery h3 {
 li > h3 {
   display: block;
   inline-size: 100%;
-  margin-block-start: 1.125rem;
   background-color: var(--accent-color);
   color: var(--secondary-color);
-  margin-block-end: 11px;
-  font-size: 1.125rem;
-  line-height: 1.463rem;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 li p {
   display: block;
   margin-block-start: 4px;
   padding: 0;
-  font-size: 1.125rem;
-  line-height: 1.463rem;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
 section.gallery article {
@@ -127,5 +137,5 @@ section.gallery article img:nth-of-type(5) {
   grid-area: ee;
 }
 footer {
-  margin-block-start: 60px;
+  margin-block-start: 52px;
 }

@@ -33,21 +33,34 @@ header p {
   align-self: start;
   justify-self: end;
 }
-
+main {
+  padding-block-start: 40px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+}
+article {
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+}
+section ul {
+  padding-block-start: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 section.why {
   display: grid;
   grid-template-columns: 1fr 66%;
   gap: 1.25rem;
 }
-section.why article {
-  padding-block-start: 2px;
-}
+
 section.why h2 {
   padding-block-start: 20px;
 }
 
 section.what h2 {
-  padding-block-start: 30px;
   inline-size: 34%;
 }
 
@@ -63,23 +76,21 @@ li {
 }
 
 section.how {
-  padding-block-start: 42px;
   display: grid;
   grid-template-columns: 1fr 66%;
-  gap: 1.25rem;
-}
-section.how h2 {
-  padding-block-start: 0.3em;
+  gap: 20px;
 }
 
+section.how article {
+  padding-block-start: 0;
+}
 section.how h3 {
-  margin-block-start: 6px;
-  margin-block-end: 18px;
+  margin-block-end: 10px;
 }
 
 .rec {
   inset-block-start: 20px;
-  inset-inline-end: 27px;
+  inset-inline-end: 29px;
 }
 .decorated-zone::after {
   inset-inline-start: 0rem;
@@ -90,10 +101,11 @@ section.how h3 {
   inset-inline-end: 0rem;
 }
 section.gallery {
-  padding-block-start: 50px;
+  padding-block-start: 0px;
 }
 section.gallery article {
-  padding-block-start: 10px;
+  padding: 10px 0 0 0;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:

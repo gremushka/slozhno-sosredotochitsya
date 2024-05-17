@@ -15,9 +15,14 @@
   --theme-switcher-color: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --accent-hover-color: rgba(50, 49, 45, 0.4);
-  background-image: url(../images/cover-image-light.png);
 }
-.page.theme_light .rec{
+
+.page.theme_light {
+  background-image: url(../images/cover-image-light.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.page.theme_light .rec {
   display: none;
 }
 
@@ -29,6 +34,12 @@
     --theme-switcher-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --accent-hover-color: rgba(50, 49, 45, 0.4);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .page {
     background-image: url(../images/cover-image-light.png);
+    background-attachment: fixed;
+    background-size: cover;
   }
 }
