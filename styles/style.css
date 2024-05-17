@@ -13,8 +13,8 @@
 .rec {
   display: none;
   position: absolute;
-  inset-block-start: 11px;
-  inset-inline-end: 38px;
+  inset-block-start: 10px;
+  inset-inline-end: 29px;
 }
 @media (prefers-color-scheme: dark) {
   .rec {
@@ -35,7 +35,7 @@
   border-radius: 50%;
   position: absolute;
   inset-block-start: 8px;
-  inset-inline-end: -18px;
+  inset-inline-end: -20px;
   box-shadow: 0px 0px 3px 2px var(--accent-color);
 }
 header {
@@ -51,26 +51,34 @@ main {
   margin-block-start: 40px;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 30px;
 }
 footer {
-  margin-block-start: 40px;
+  margin-block-start: 30px;
   height: 100vh;
   min-height: 668px;
   display: grid;
   position: relative;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  text-shadow: 2px 2px 0 var(--accent-color);
+  line-height: 0.825em;
+  color: var(--title-color);
+  font-weight: bold;
+  
 }
 footer span {
   place-self: center;
+
 }
-h1,
-footer {
+h1{
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--цвет переменной);
   line-height: 0.825em;
   color: var(--title-color);
   font-weight: bold;
 }
+
 header h1 {
   align-self: center;
   position: relative;
@@ -117,14 +125,11 @@ header p {
 header nav {
   place-self: end;
 }
+.how ul {
+  padding-top: 10px;
+}
 
-section.why {
-  padding-block-start: 0em;
-}
-section {
-  padding-block-start: 1.25em;
-}
-section.how ul {
+section ul {
   padding-block-start: 0;
   display: grid;
   grid-template-columns: 1fr;
@@ -136,6 +141,7 @@ section.gallery {
 section.gallery article {
   display: grid;
   grid-template-columns: 1fr;
+  padding-bottom: 10px;
   gap: 0.625rem;
 }
 img {
@@ -164,54 +170,50 @@ img {
   border-inline-end: 1px solid var(--theme-switcher-color);
   border-block-start: 1px solid var(--theme-switcher-color);
 }
-h2 {
-  color: var(--theme-switcher-color);
-  font-size: 1.125rem;
-  line-height: 1.463rem;
-  padding-block-end: 0.15rem;
-}
+
+
 section.gallery h3 {
   color: var(--secondary-color);
   background-color: var(--accent-color);
   font-size: 1.125rem;
   line-height: 1.463rem;
-  margin-block-end: 10px;
+}
+article {
+  padding-block-start:20px;
+  padding-block-end:20px;
+}
+.gallery article {
+  padding-block-start:0px;
 }
 
-article > h3 {
-  margin-block-start: 1rem;
-  margin-block-end: 20px;
-  color: var(--secondary-color);
-  background-color: var(--accent-color);
+h2 {
+  color: var(--theme-switcher-color);
   font-size: 1.125rem;
   line-height: 1.463rem;
 }
-li > h3 {
-  display: block;
-  inline-size: 100%;
-  margin-block-start: 1.125rem;
-  background-color: var(--accent-color);
+ h3 {
+  margin-block-end: 10px;
   color: var(--secondary-color);
-  margin-block-end: 0.625rem;
-  font-size: 1.125rem;
-  line-height: 1.463rem;
+  background-color: var(--accent-color);
+  font-size: 18px;
+  line-height: 23.4px;
 }
 h4 {
   display: block;
   inline-size: 100%;
   background-color: var(--accent-color);
   color: var(--secondary-color);
-  margin-block-end: 0.625rem;
-  font-size: 1.125rem;
+  margin-block-end: 10px;
+  font-size: 18px;
   font-weight: normal;
-  line-height: 1.463rem;
+  line-height: 23.4px;
 }
 li p {
   display: block;
   margin: 0;
   padding: 0;
-  font-size: 1.125rem;
-  line-height: 1.463rem;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
 a:link,

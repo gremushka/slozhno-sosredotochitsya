@@ -16,7 +16,14 @@
   --accent-color: #ff0070;
   --accent-hover-color: rgba(255, 0, 112, 0.4);
   background-image: url(../images/cover-image-dark.png);
+  background-attachment: fixed;
+  background-size: cover;
 }
 .page.theme_dark .rec {
   display: block;
+}
+@media (prefers-color-scheme: dark) {
+  .page {
+    background-image: url(../images/cover-image-dark.png);
+  }
 }
