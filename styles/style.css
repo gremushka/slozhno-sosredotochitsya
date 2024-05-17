@@ -15,6 +15,8 @@
   position: absolute;
   inset-block-start: 10px;
   inset-inline-end: 29px;
+  inset-block-start: 10px;
+  inset-inline-end: 29px;
 }
 @media (prefers-color-scheme: dark) {
   .rec {
@@ -36,6 +38,7 @@
   position: absolute;
   inset-block-start: 8px;
   inset-inline-end: -20px;
+  inset-inline-end: -20px;
   box-shadow: 0px 0px 3px 2px var(--accent-color);
 }
 header {
@@ -52,8 +55,10 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
+  gap: 30px;
 }
 footer {
+  margin-block-start: 30px;
   margin-block-start: 30px;
   height: 100vh;
   min-height: 668px;
@@ -67,15 +72,18 @@ footer {
 }
 footer span {
   place-self: center;
+
 }
 h1 {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 4px 4px 0 var(--accent-color);
   text-shadow: 2px 2px 0 var(--цвет переменной);
+  text-shadow: 2px 2px 0 var(--цвет переменной);
   line-height: 0.825em;
   color: var(--title-color);
   font-weight: bold;
 }
+
 
 header h1 {
   align-self: center;
@@ -194,6 +202,8 @@ h3 {
   background-color: var(--accent-color);
   font-size: 18px;
   line-height: 23.4px;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 h4 {
   display: block;
@@ -202,13 +212,18 @@ h4 {
   color: var(--secondary-color);
   margin-block-end: 10px;
   font-size: 18px;
+  margin-block-end: 10px;
+  font-size: 18px;
   font-weight: normal;
+  line-height: 23.4px;
   line-height: 23.4px;
 }
 li p {
   display: block;
   margin: 0;
   padding: 0;
+  font-size: 18px;
+  line-height: 23.4px;
   font-size: 18px;
   line-height: 23.4px;
 }

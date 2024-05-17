@@ -56,6 +56,7 @@ section.why {
   gap: 1.25rem;
 }
 
+
 section.why h2 {
   padding-block-start: 20px;
 }
@@ -79,6 +80,7 @@ section.how {
   display: grid;
   grid-template-columns: 1fr 66%;
   gap: 20px;
+  gap: 20px;
 }
 
 section.how article {
@@ -86,10 +88,12 @@ section.how article {
 }
 section.how h3 {
   margin-block-end: 10px;
+  margin-block-end: 10px;
 }
 
 .rec {
   inset-block-start: 20px;
+  inset-inline-end: 29px;
   inset-inline-end: 29px;
 }
 .decorated-zone::after {
@@ -101,6 +105,7 @@ section.how h3 {
   inset-inline-end: 0rem;
 }
 section.gallery {
+  padding-block-start: 0px;
   padding-block-start: 0px;
 }
 section.gallery article {
